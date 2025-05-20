@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>formularios</h1>
+
+<form method="get">
+
+<label for="name">escribe tu nombre</label>
+<input type="text" name="name" id="name" minlength="2" maxlength="5" disabled>
+<br>
+<label for="name">escribe un numero entre 1 y 10</label>
+<input type="number" name="number" id="number" min="1" max="10">
+<br>
+<label for="name">escribe una fecha entre 1980 hasta 2023</label>
+<input type="date" name="date" id="date" min="1980-01-01" max="2023-01-01">
+<br>
+<label for="range">selecciona un numero</label>
+<input type="range" name="range" id="range" min="1" max="5">
+<br>
+<label for="file">selecciona varios archivos</label>
+<input type="file" name="file" id="file" multiple>
+<br>
+<label for="code">escribe el codigo del pais</label>
+<input type="text" name="code" id="fcode" pattern="[A-Z]{3}">
+<br>
+<input type="text" name="name" id="name" placeholder="ESCRIBRE TU NOMBRE" required>
+<br>
+<input type="text" name="lastname" id="lastname" placeholder="ESCRIBRE TU APELLIDO" required>
+<br>
+<input type="text" name="job" id="job" placeholder="ESCRIBRE TU TRABAJO" autofocus>
+
+
+
+
+
+<input type="submit" value="enviar">
+
+</form>
+
+
+
+
+</body>
+</html>
